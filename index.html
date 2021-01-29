@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div class="search">
+        <input type="text" id="search-bar" placeholder="choose a country" />
+        <button id="search-button">Get Weather</button>
+      </div>
+      <h1 class="location">
+        <span id="city">Ariana</span>, <span id="country-code">TN</span>
+      </h1>
+      <p id="date">Thursday 10 January 2020</p>
+      <p id="temp">20°C</p>
+      <p id="weather">Windy</p>
+      <p class="temps">
+        <span id="min-temp">18°C</span> / <span id="max-temp">23°C</span>
+      </p>
+    </div>
+    <script src="main.js"></script>
+    <script>
+      main();
+    </script>
+  </body>
+</html>
